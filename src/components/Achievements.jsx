@@ -15,18 +15,18 @@ const achievementsList = [
     value: "100",
     postfix: "+",
   },
+  
   {
-    prefix: "~",
-    metric: "Users",
-    value: "100,000",
+    metric: "Clients",
+    value: "8",
+    postfix: "+",
+
   },
   {
-    metric: "Awards",
-    value: "7",
-  },
-  {
-    metric: "Years",
+    metric: "Work Experience",
     value: "5",
+    postfix: "+ Years",
+
   },
 ];
 

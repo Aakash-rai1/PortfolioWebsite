@@ -25,9 +25,9 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "CISWP",
-    description: "project 1 is here",
-    image: "/images/hero-image.png",
+    title: "Checkerchain",
+    description: "Checkerchain is a review-2-earn blockchain platform.",
+    image: "/images/checkerchain.png",
     tag: ["All", "UI"],
     gitUrl: "/",
     previewUrl: "/",
