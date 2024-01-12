@@ -74,7 +74,7 @@ const AboutSection = () => {
             gap between design aesthetics and technical implementation. This
             multidisciplinary background fuels my ability to conceptualize
             innovative solutions and translate them into intuitive, visually
-            stunning interfaces that captivate and engage users. 
+            stunning interfaces that captivate and engage users.
           </p>
           <div className="flex flex-row mt-8 justify-start">
             <TabButton
