@@ -30,7 +30,25 @@ const projectsData = [
     image: "/images/checkerchain.png",
     tag: ["All", "Product Design"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://checkerchain.com",
+  },
+  {
+    id: 4,
+    title: "Social Media Posts",
+    description: "Checkerchain is a review-2-earn blockchain platform.",
+    image: "/images/social.png",
+    tag: ["All", "Graphic Design"],
+    gitUrl: "/",
+    previewUrl: "https://www.behance.net/gallery/169076747/Social-Media-Posts",
+  },
+  {
+    id: 5,
+    title: "The Aroma Restaurant",
+    description: "The Aroma is a small restaurant that provides authentic Indian and Hakka cuisine.",
+    image: "/images/aroma.png",
+    tag: ["All", "Graphic Design"],
+    gitUrl: "/",
+    previewUrl: "https://www.instagram.com/thearomacambridge/",
   },
 ];
 
@@ -53,7 +71,7 @@ const ProjectSection = () => {
   };
 
   return (
-    <section>
+    <section id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4">
         My Projects
       </h2>

@@ -3,6 +3,10 @@ import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 
 const ProjectCard = ({ imgurl, title, description, gitUrl, previewUrl }) => {
+  const handlePreviewClick = () => {
+    // Open a new window or navigate to the previewUrl
+    window.open(previewUrl, "_blank");
+  };
   return (
     <div>
       <div
@@ -14,7 +18,7 @@ const ProjectCard = ({ imgurl, title, description, gitUrl, previewUrl }) => {
           <CodeBracketIcon className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
           </Link>
           <Link href="/" className="h-14 w-14 mr-2 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link">
-          <EyeIcon className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
+          <EyeIcon onClick={handlePreviewClick} className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
           </Link>
         </div>
       </div>
