@@ -9,11 +9,11 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express.js</li>
-        <li>React</li>
-        <li>Kotlin</li>
-        <li>Html and Css</li>
+        <li>Adobe Creative Suite</li>
+        <li>Figma</li>
+        <li>Video Editing</li>
+        <li>Android Development (Kotlin, Java)</li>
+        <li>Web Development (Wordpress, React)</li>
       </ul>
     ),
   },
@@ -33,10 +33,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>AWS Certifications</li>
-        <li>Express.js</li>
-        <li>React</li>
-        <li>Kotlin</li>
-        <li>Html and Css</li>
+        <li>Microsoft Certifications</li>
       </ul>
     ),
   },
@@ -54,7 +51,7 @@ const AboutSection = () => {
 
   return (
     <section className="text-white">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+      <div className="md:grid md:grid-cols-2 gap-8 items-center py-12 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image
           src="/images/about.png"
           alt="about image"
@@ -77,10 +74,7 @@ const AboutSection = () => {
             gap between design aesthetics and technical implementation. This
             multidisciplinary background fuels my ability to conceptualize
             innovative solutions and translate them into intuitive, visually
-            stunning interfaces that captivate and engage users. Constantly
-            evolving in this ever-changing landscape, I thrive on the fusion of
-            artistry and technology, striving to create impactful digital
-            experiences that leave a lasting impression.
+            stunning interfaces that captivate and engage users. 
           </p>
           <div className="flex flex-row mt-8 justify-start">
             <TabButton

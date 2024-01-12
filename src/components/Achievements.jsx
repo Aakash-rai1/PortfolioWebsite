@@ -15,25 +15,23 @@ const achievementsList = [
     value: "100",
     postfix: "+",
   },
-  
+
   {
     metric: "Clients",
     value: "8",
     postfix: "+",
-
   },
   {
     metric: "Work Experience",
     value: "5",
     postfix: "+ Years",
-
   },
 ];
 
 const Achievements = () => {
   return (
-    <div className="py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-      <div className="sm:border-[#33353F] sm:border rounded-md py-8 px-16 flex flex-col sm:flex-row items-center justify-between">
+    <div className="py-2 px- xl:gap-16 sm:py-10 xl:px-16">
+      <div className="py-4 px-16 flex flex-col sm:flex-row items-center justify-between">
         {achievementsList.map((achievement, index) => {
           return (
             <div

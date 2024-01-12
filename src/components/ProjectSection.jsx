@@ -16,10 +16,10 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Graphic Designs for Aroma",
+    title: "The Aroma Restaurant",
     description: "project 1 is here",
     image: "/images/hero-image.png",
-    tag: ["All", "Design"],
+    tag: ["All", "Graphic Design"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -28,7 +28,7 @@ const projectsData = [
     title: "Checkerchain",
     description: "Checkerchain is a review-2-earn blockchain platform.",
     image: "/images/checkerchain.png",
-    tag: ["All", "UI"],
+    tag: ["All", "Product Design"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -65,13 +65,13 @@ const ProjectSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Design"
-          isSelected={tag === "Design"}
+          name="Graphic Design"
+          isSelected={tag === "Graphic Design"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="UI"
-          isSelected={tag === "UI"}
+          name="Product Design"
+          isSelected={tag === "Product Design"}
         />
       </div>
       <ul  ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
