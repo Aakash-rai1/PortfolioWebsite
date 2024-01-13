@@ -62,6 +62,16 @@ const projectsData = [
     gitUrl: "/",
     previewUrl: "https://checkerchain.com",
   },
+  {
+    id: 7,
+    title: "Zoro.to Clone",
+    description:
+      "During my learning days, I also created a clone of a site that I frequently visited.",
+    image: "/images/zorox.png",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "https://github.com/Aakash-rai1/Zorox.to",
+  },
 ];
 
 const ProjectSection = () => {
@@ -92,6 +102,11 @@ const ProjectSection = () => {
           onClick={handleTagChange}
           name="All"
           isSelected={tag === "All"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Website"
+          isSelected={tag === "Web"}
         />
         <ProjectTag
           onClick={handleTagChange}
