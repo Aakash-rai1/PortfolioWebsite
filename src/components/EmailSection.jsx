@@ -51,7 +51,7 @@ const EmailSection = () => {
         <h5 className="text-xl font-bold text-[#9da2a5] my-2">
           Have an awesome project in mind?
           <br />
-          <span className="text-white">Let's connect</span>
+          <span className="text-white">Let&quot;s connect</span>
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}

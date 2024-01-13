@@ -62,12 +62,12 @@ const AboutSection = () => {
           <h2 className="text-4xl font-bold text-white mb-4"> About me</h2>
           <p className="text-base ld:text-lg">
             As a versatile professional in the realm of design and development,
-            you'll find me immersed in the intersection of creativity and
-            functionality. With a foundation in graphic design, I've expanded my
+            you will find me immersed in the intersection of creativity and
+            functionality. With a foundation in graphic design, I have expanded my
             expertise into the dynamic spheres of UI/UX design and frontend
             development. My journey began with a passion for visual
             storytelling, honing my skills in creating captivating designs that
-            resonate with audiences. Over time, I've ventured into crafting
+            resonate with audiences. Over time, I have ventured into crafting
             seamless user experiences, leveraging my understanding of user
             behaviors and interactions. My foray into frontend development has
             equipped me with a holistic perspective, enabling me to bridge the
