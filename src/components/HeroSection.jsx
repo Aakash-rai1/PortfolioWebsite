@@ -39,8 +39,11 @@ const HeroSection = () => {
           </h1>
           
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
+            My journey began with a passion for visual
+            storytelling, honing my skills in creating captivating designs that
+            resonate with audiences. Over time, I have ventured into crafting
+            seamless user experiences, leveraging my understanding of user
+            behaviors and interactions.
           </p>
           <div>
             <Link
